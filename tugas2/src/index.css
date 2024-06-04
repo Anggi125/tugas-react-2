@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box-besar{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bingkai{
+    text-align: center;
+    row-gap: 2px;
+    background-color: blue;
+    
+}
+
+.buttonn{
+   justify-content: space-around;
+   background-color: red;
+}
+.header{
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    >p{
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+    }
+}
